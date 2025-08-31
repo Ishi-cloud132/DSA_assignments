@@ -12,7 +12,7 @@ int main() {
 
     cout << "Matrix:\n";
     int k=0;
-    for(int i=0;i<n;i++) {
+    for(int i=0;i<n;i++) { 
         for(int j=0;j<n;j++) {
             if(i>=j) cout << sym[k++] << " ";
             else cout << sym[j*(j+1)/2 + i] << " "; 

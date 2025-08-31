@@ -29,6 +29,6 @@ int main() {
         }
     }
 
-    cout << "Total distinct elements = " << C ount << endl;
+    cout << "Total distinct elements = " << Count << endl;
     return 0;
 }
