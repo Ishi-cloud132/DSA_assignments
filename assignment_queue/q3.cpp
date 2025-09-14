@@ -6,7 +6,7 @@ using namespace std;
 void interleaveQueue(queue<int>& q) {
     int n = q.size();
     if (n % 2 != 0) {
-        cout << "Queue has odd size, cannot interleave properly.\n";
+        cout << "Queue has odd size";
         return;
     }
 
